@@ -61,14 +61,15 @@ p {
     margin: 1%;
   }
   .col-md-12 {
-    width: 99%;
-    margin: 1%;
+    width: 98%;
+    margin: 1% 1%;
   }
 }
 
 /********** Mobile Small Devices **********/
 @media (max-width: 767px) {
   .col-sm-12 {
-    width: 100%;
+    width: 98%;
+    margin: 2% 1%;
   }
 }
