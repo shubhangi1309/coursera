@@ -1,0 +1,74 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+h2 {
+  width: 40%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  float: right;
+  border: solid #000000 1px;
+}
+#sub-head1 {
+  background-color: #4b48c7;
+  color: #ffffff;
+}
+#sub-head2 {
+  background-color: #b9548f;
+  color: #ffffff;
+}
+#sub-head3 {
+  background-color: #972929;
+  color: #ffffff;
+}
+section {
+  border: 2px solid #000000;
+  background-color: #b1b5b3;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+p {
+  padding: 10px;
+  clear: both;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Desktop large Devices **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 32%;
+    margin: 0.66%;
+  }
+}
+/********** Tablet Medium Devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 48%;
+    float: left;
+    margin: 1%;
+  }
+  .col-md-12 {
+    width: 99%;
+    margin: 1%;
+  }
+}
+
+/********** Mobile Small Devices **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}
