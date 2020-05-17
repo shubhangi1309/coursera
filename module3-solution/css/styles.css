@@ -1,0 +1,78 @@
+* {
+  font-family: "Balsamiq Sans", cursive, serif;
+}
+#header-nav {
+  background-color: #9f9d9d;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+
+.navbar-brand h1 {
+  /* Brand name */
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  border-top: 1px solid #000000;
+}
+#nav-list a:hover {
+  background: #9f9d9d;
+}
+.content {
+  background-color: #9f9d9d;
+  color: #000000;
+  width: 100%;
+  padding-top: 2px;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.content p {
+  padding: 10px;
+}
+/************** Desktop only *************/
+@media (min-width: 992px) {
+  .col-md-12 {
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    height: 1000px;
+  }
+}
+/************** Tablet only *************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .content {
+    height: 1000px;
+  }
+}
+/************** Mobile only*************/
+@media (max-width: 767px) {
+  .content {
+    width: 80%;
+    margin: auto;
+  }
+}
